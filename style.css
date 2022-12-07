@@ -1,76 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
- 
-<!-- Head Section Content -->
+<html>
 <head>
- 
-    <!-- Page title -->
-    <title>css an all about it</title>
+<title>W3.CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www..css.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('imgu.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 </head>
-<body style="background-color:#179edd;"></body>
- 
-<!-- Body Section Content -->
 <body>
- 
-    <!-- Heading Content -->
-    <h1>send feeback here</h1>
- 
-    <h3>to my personal website</h3>
- 
-    <!-- Creating a from -->
-    <form action="#">
-        <fieldset>
-            <legend>Personal Details</legend>
- 
-            <!-- Label and input field -->
-            <p>
-                <label>First name : <input name="firstName" /></label>
-            </p>
- 
-            <p>
-                <label>Last name : <input name="lastName" /></label>
-            </p>
- 
-            <!-- Label and radio button field -->
-            <p>
-                Gender :
-                <label><input type="radio" name="gender"
-                    value="male" /> Male</label>
- 
-                <label><input type="radio" name="gender"
-                    value="female" /> Female</label>
-            </p>
- 
-            <p>
-                <label>Email : <input type="email"
-                    name="email" /></label>
-            </p>
- 
-            <p>
-                <label>Date of Birth : <input type="date"
-                    name="birthDate"></label>
-            </p>
- 
-            <!-- Label and textarea field -->
-            <p>
-                <label>Address :
-                    <br />
-                    <textarea name="address" cols="30"
-                        rows="3"></textarea>
-                </label>
-            </p>
- 
-            <!-- Creating a button -->
-            <p>
-                <button type="submit">Submit</button>
-            </p>
-        </fieldset>
-    </form>
-    <a href="index.html">index</a>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    BUGEMA UNIVERSITY -EXELENCE IN EXELENCE
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">CSS</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="isaiah k samson" target="_blank">.css</a>
+  </div>
+</div>
+<a href="index.html">index</a>
     <a href="about.html">about</a>
     <a href="contact.html">contact</a>
     <a href="style.css">css</a>
-    
 </body>
- 
 </html>
